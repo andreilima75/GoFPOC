@@ -8,13 +8,13 @@ interface Checkbox {
 
 static class WinButton implements Button {
     public void render() {
-        System.out.println("Win Button");
+        System.out.println("Win creational.abstractt.Button");
     }
 }
 
 static class MacButton implements Button {
     public void render() {
-        System.out.println("Mac Button");
+        System.out.println("Mac creational.abstractt.Button");
     }
 }
 
